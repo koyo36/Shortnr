@@ -1,0 +1,20 @@
+// Check for node
+node -v
+
+// Check for npm
+npm -v
+
+*****************************************
+
+// Install npm
+npm init
+
+// Install gulp
+npm install --save-dev gulp
+
+// You never upload *node_modules* to server
+// You just need package.json
+// Run it with 
+npm install
+
+*********************************************

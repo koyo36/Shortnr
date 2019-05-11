@@ -1,0 +1,45 @@
+.main-content {
+    background: $dark-gray;
+    border-radius: 2.5px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 70px;
+    min-height: 200px;
+}
+.lead-text {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-size: 30px;
+}
+input.link-input {
+    width: 100%;
+    padding: 18px 15px;
+    height: 45px;
+    border-radius: 2.5px;
+    margin-bottom: 30px;
+   
+}
+input.link-input.done  {
+    color: $red;
+    background: $gray;
+    border: $gray;
+}
+.btn-short {
+    font-size: 1em;
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    background: $red;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 200;
+    
+}
+.lead-p {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+
+}
+

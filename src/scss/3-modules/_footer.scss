@@ -1,0 +1,39 @@
+.main-footer {
+    height: 100px;
+    margin-top: 70px;
+    background: $dark-gray;
+    line-height: 100px;
+    text-align: right;
+    font-weight: 300;
+    width: 100%;
+
+    a {
+        color: #fff;
+    }
+    a span {
+        color: $red;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+
+// footer fix
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 170px;
+
+}
+.main-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+}
+
